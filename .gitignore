@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# 機密情報
+config/google_credentials.json
+config/session.json
+config/app_settings.json
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ログ・デバッグ
+*.log
+debug_*.html
+
+# Playwright
+.cache/
+downloads/
+
+# アイコン画像（ローカルのみ）
+icons/
+*.png
+*.jpg
+*.jpeg
