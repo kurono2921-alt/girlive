@@ -80,7 +80,7 @@ python -c "import playwright; import PySide6; import gspread; print('✅ セッ�
 
 ```bash
 source .venv/bin/activate  # 未起動の場合
-python app.py
+python main.py
 ```
 
 ### 設定項目
@@ -164,7 +164,7 @@ Google Sheetsへ書き戻し
 
 ```
 LINE自動化/
-├── app.py                    # メインGUIアプリケーション
+├── main.py                   # メインGUIアプリケーション
 ├── requirements.txt          # 依存パッケージ
 ├── config/
 │   ├── settings.py           # 定数・設定値
